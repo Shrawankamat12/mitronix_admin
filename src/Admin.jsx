@@ -69,7 +69,7 @@ import { Filters } from "./pages/Filters";
 import NotificationDashboard from "./pages/NotificationDashboard";
 import DelayBanners from "./pages/DelayBanners";
 import DelayBannerCreate from "./pages/DelayBannerCreate";
-import DelayBannerupdate from "./pages/DelayBannerupdate";
+import DelayBannerUpdate from "./pages/DelayBannerUpdate";
 import CustomerDetail from "./pages/CustomersDetail";
 function Admin() {
   const [isLoading, setIsLoading] = useState(true);
@@ -239,7 +239,7 @@ function Admin() {
               />
               <Route
                 path="delay-banners/update/:id"
-                element={<DelayBannerupdate />}
+                element={<DelayBannerUpdate />}
               />
               {/* Role Routes */}
               <Route path="roles" element={<RoleList />} />
